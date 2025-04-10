@@ -9,6 +9,8 @@ function Footer() {
       <Container>
         <Row>
           <Col className="text-center py-3">
+            Email: <a href="mailto:team@trackstacker.com">{"team@trackstacker.com"}</a>
+            <br></br>
             Copyright &copy; Owen Dillabough
           </Col>
         </Row>

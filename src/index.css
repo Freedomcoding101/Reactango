@@ -10,3 +10,30 @@ h3 {
 .rating span {
   margin: 0.1rem;
 }
+
+.project-card {
+  width: 100%;
+  height: 300px; /* Set the desired height */
+  overflow: hidden; /* Hide overflow content */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center; /* Center text */
+}
+
+.project-card .description {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center; /* Center text */
+}
+
+.bio {
+  text-indent: 2rem;
+}
+
+.bioheader {
+  margin-top: 2rem;
+}

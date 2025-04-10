@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -39,4 +41,44 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.indent {
+  text-indent: 2em;
+}
+
+.tech-pill {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  margin: 0.3rem;
+  border-radius: 50px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s ease;
+}
+
+.tech-pill:hover {
+  background-color: #e2e2e2;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+.contact-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
