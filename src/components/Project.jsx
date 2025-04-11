@@ -8,7 +8,7 @@ function Project({ project }) {
   return (
     <Card className="my-3 p-3 rounded project-card">
       <Link to={`/project/${project._id}`}>
-        <Card.Img src={`${mediaURL}${project.image}`} />
+        <Card.Img src={project.image} />
       </Link>
       <Card.Body>
         <Link to={`/project/${project._id}`}>
