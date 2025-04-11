@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../profile.css";
-import { baseURL } from "../config";
 import { mediaURL } from "../config";
 
 function Profile({ profile }) {

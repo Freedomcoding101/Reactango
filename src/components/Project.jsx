@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../index.css";
-import { baseURL } from "../config";
 import { mediaURL } from "../config";
 
 function Project({ project }) {
