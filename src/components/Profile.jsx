@@ -5,9 +5,6 @@ import "../profile.css";
 import { baseURL } from "../config";
 import { mediaURL } from "../config";
 
-console.log("📸 Full image URL:", `${mediaURL}${profile.image}`);
-console.log("inside of profile.jsx")
-
 function Profile({ profile }) {
   return (
     <div className="my-3 p-3 rounded profile-card">
