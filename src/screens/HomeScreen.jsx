@@ -24,6 +24,7 @@ function HomeScreen() {
   }, []);
 
   console.log("Image path:", profile?.image);
+  console.log("this is from the home screen")
 
   return (
     <Row>
