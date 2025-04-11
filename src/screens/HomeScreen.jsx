@@ -12,7 +12,7 @@ function HomeScreen() {
   useEffect(() => {
     const fetchProfile = async () => {
       try {
-        const response = await axios.get(`${baseURL}/api/profile`);
+        const response = await axios.get(`${baseURL}/profile`);
         console.log(response.data);
         setProfile(response.data);
       } catch (error) {

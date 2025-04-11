@@ -14,7 +14,7 @@ function ProjectScreen() {
   useEffect(() => {
     async function fetchProject() {
       try {
-        const { data } = await axios.get(`${baseURL}/api/projects/${id}`);
+        const { data } = await axios.get(`${baseURL}/projects/${id}`);
         console.log(data); // Log the response data
         setProject(data);
       } catch (error) {
