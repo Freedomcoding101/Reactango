@@ -3,12 +3,13 @@ import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../profile.css";
 import { baseURL } from "../config";
+import { mediaURL } from "../config";
 
 function Profile({ profile }) {
   return (
     <div className="my-3 p-3 rounded profile-card">
       <img
-        src={`${baseURL}${profile.image}`}
+        src={`${mediaURL}${profile.image}`}
         className="card-img"
         alt={profile.name}
       />

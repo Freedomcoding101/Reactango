@@ -3,12 +3,13 @@ import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../index.css";
 import { baseURL } from "../config";
+import { mediaURL } from "../config";
 
 function Project({ project }) {
   return (
     <Card className="my-3 p-3 rounded project-card">
       <Link to={`/project/${project._id}`}>
-        <Card.Img src={`${baseURL}${project.image}`} />
+        <Card.Img src={`${mediaURL}${project.image}`} />
       </Link>
       <Card.Body>
         <Link to={`/project/${project._id}`}>

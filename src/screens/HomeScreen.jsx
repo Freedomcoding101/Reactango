@@ -23,6 +23,8 @@ function HomeScreen() {
     fetchProfile();
   }, []);
 
+  console.log("Image path:", profile?.image);
+
   return (
     <Row>
       <Col xs={12} md={5}>
