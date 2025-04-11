@@ -7,6 +7,7 @@ import Project from "../components/Project";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { baseURL } from "../config";
+console.log("BASE URL:", baseURL);
 
 function ProjectsScreen() {
   const [projects, setProjects] = useState([]);
