@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Project from "../components/Project";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { baseURL } from "../config";
 
 function ProjectsScreen() {
   const [projects, setProjects] = useState([]);
