@@ -12,7 +12,7 @@ function ProjectsScreen() {
 
   useEffect(() => {
     async function fetchProjects() {
-      const { data } = await axios.get("api/projects/");
+      const { data } = await axios.get(`${baseURL}/projects/`);
       setProjects(data);
     }
 
