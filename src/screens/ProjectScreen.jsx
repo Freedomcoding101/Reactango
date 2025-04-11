@@ -41,7 +41,7 @@ function ProjectScreen() {
           <Row className="g-5">
             <Col md={6}>
               <Image
-                src={`${baseURL}${project.image}`}
+                src={project.image}
                 alt={project.title}
                 fluid
               />
