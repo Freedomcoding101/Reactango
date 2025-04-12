@@ -20,7 +20,7 @@ function Header() {
               </Nav.Link>
 
               <Nav.Link as={Link} to="/resume">
-                <i className="fas fa-file"></i> Resume
+                <i className="fas fa-file"></i><a href="https://profilebucket444334.s3.us-east-2.amazonaws.com/resume.pdf" download> Resume</a>
               </Nav.Link>
 
               <Nav.Link
