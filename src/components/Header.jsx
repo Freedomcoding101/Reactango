@@ -19,13 +19,19 @@ function Header() {
                 <i className="fas fa-diagram-project"></i> Projects
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/resume">
+              <Nav.Link
+                href="https://profilebucket444334.s3.us-east-2.amazonaws.com/Owens_resume.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fas fa-file"></i> Resume
               </Nav.Link>
 
               <Nav.Link
-                href="https://profilebucket444334.s3.us-east-2.amazonaws.com/Owens_resume.pdf"
-                download
+                as={Link}
+                to="https://github.com/Freedomcoding101"
+                target="_blank"
               >
                 <i className="fa-brands fa-github"></i> Github
               </Nav.Link>
