@@ -20,7 +20,7 @@ function Header() {
               </Nav.Link>
 
               <Nav.Link
-                href="https://profilebucket444334.s3.us-east-2.amazonaws.com/Owens_resume.pdf"
+                href="https://profilebucket444334.s3.us-east-2.amazonaws.com/owens_resume.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
