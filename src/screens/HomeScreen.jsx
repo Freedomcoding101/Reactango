@@ -62,7 +62,15 @@ function HomeScreen() {
           interaction between front-end components and back-end systems. React
           is an essential tool for modern web development, and I’m eager to
           continue building my skills and use React to create dynamic,
-          interactive user interfaces.
+          interactive user interfaces.Currently, I am expanding my skills by 
+          learning React. This is an exciting new challenge that allows me to better understand
+           the interaction between front-end components and back-end systems. React is an essential
+            tool for modern web development, and I’m eager to continue building my skills and use React
+             to create dynamic, interactive user interfaces. I am also currently working in a role
+              for Andes Geo as a junior in a project to track assets and geological surveys. This
+               is an unpaid internship that I took for work experience. We are building out a React 
+               front end and a Fast-API backend to provide users with information on their assets in 
+               real time in mapbox.
         </p>
         <h2 className="bioheader">Previous Work</h2>
         <p className="bio">

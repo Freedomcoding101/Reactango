@@ -14,7 +14,7 @@ function Profile({ profile }) {
         alt={profile.name || "Profile image"}
       />
 )}
-      <div> Socials </div>
+      <div> Owen Alexander Dillabough</div>
     </div>
   );
 }

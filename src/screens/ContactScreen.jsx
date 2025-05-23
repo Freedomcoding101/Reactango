@@ -35,7 +35,7 @@ function ContactScreen() {
             <div>
             <strong>Email:</strong>&nbsp;
             </div>
-            <a href="mailto:team@trackstacker.com">team@trackstacker.com</a>
+            <a href="mailto:support@wallstreetstackers.com">support@wallstreetstackers.com</a>
           </li>
         </ul>
 
